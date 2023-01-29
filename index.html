@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <!--our custom css-->
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <!--Remixicon link--> 
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <title>Unit converter</title>
+    </head>
+    <body>
+        <header class="header flex">
+            <div class="logo bg-dark"></div>
+            <p class="uppercase letter-spacing-2">Unit Converter</p>
+            
+        </header>
+        <main class="main container flow">
+            <h1 class="fw-light fs-h2 letter-spacing-1">Metric/Imperial Unit Conversion</h1>
+            <div class="flex hero">
+                <input type="text" aria-label="input" class="input-el bg-dark text-white ff-secondary" id="input-el" placeholder="Enter a number">
+                <button id="convert-btn" class="btn fs-body uppercase letter-spacing-1 text-white bg-dark">Convert</button>
+            </div>
+            <div class="length convert-card bg-dark ff-secondary" id="length-el">
+                <h2 class="fs-h3 fw-reg text-accent">Length (Meter/Feet)</h2>
+            </div>
+            <div class="volume convert-card ff-secondary" id="volume-el">
+                <h2 class="fs-h3 fw-reg text-accent">Volume (Liters/Gallons)</h2>
+            </div>
+            <div class="mass convert-card ff-secondary" id="mass-el">
+                <h2 class="fs-h3 fw-reg text-accent">Mass (Kilograms/Pounds)</h2>
+            </div>
+  
+           
+
+ 
+
+        </main>
+        <footer></footer>
+        <script src="index.js" defer></script>
+    </body>
+
+</html>
